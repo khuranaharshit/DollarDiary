@@ -1,0 +1,105 @@
+---
+name: "Tag Yaml"
+description: "This is an example YAML to be used with spltiwise_tag_and_processor.py. It's purpose is to provide a matching string for tagging different expenses in Splitwise"
+
+# Will only match the groups which have following substring in their names
+group_filters:
+- 2023
+- 2022
+- 2021
+
+# The keys are the tags and the list is keywords in the description which if present then the 
+# expense will be tagged with the following tag
+matchers:
+  tax:
+    - tax
+    - toll
+    - rent
+    - hra
+  travel:
+    - vacation
+    - burnout
+    - ticket
+    - flight
+    - train
+    - airport
+    - railway
+    - shimla
+    - mussorie
+    - kufri
+    - ride
+    - punjab
+    - cab
+    - europe
+    - pisa
+    - venice
+    - ibiza
+    - miquel
+    - hotel
+    - visa
+    - delhi
+    - doon
+    - zostel
+    - airbnb
+    - hotel
+    - stay
+    - bus
+  mandatory:
+    - tax
+    - policy
+    - loan
+    - emi
+    - rent
+    - zerodha
+    - mutual
+    - fund
+    - stock
+    - indmoney
+  investment:
+    - zerodha
+    - mutual
+    - fund
+    - stock
+    - indmoney
+    - groww
+    - trade
+    - binance
+    - crypto
+  misc:
+    - phaidra
+    - misc
+    - bill
+    - pizzq
+    - batman
+    - movie
+    - chair
+    - tile
+    - papa
+    - mumma
+    - cafe
+    - lunch
+    - tshirt
+    - dinner
+    - snack
+    - lunch
+    - breakfast
+    - dinner
+    - coffee
+    - lend
+    - modicare
+    - casg
+    - tea
+    - sandwhich
+    - payment
+    - rafting
+    - mcdonalds
+    - kalsand
+    - vr
+    - petrol
+    - diesel
+  hra:
+    - rent
+    - hra
+  emi:
+    - emi
+    - loan

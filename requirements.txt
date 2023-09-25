@@ -1,1 +1,3 @@
-splitwise
+python_dateutil==2.8.2
+PyYAML==6.0.1
+splitwise==3.0.0
