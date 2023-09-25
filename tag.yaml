@@ -66,10 +66,9 @@ matchers:
     - binance
     - crypto
   misc:
-    - phaidra
     - misc
     - bill
-    - pizzq
+    - pizza
     - batman
     - movie
     - chair
@@ -93,7 +92,7 @@ matchers:
     - payment
     - rafting
     - mcdonalds
-    - kalsand
+    - kalsang
     - vr
     - petrol
     - diesel
